@@ -1,0 +1,1 @@
+This directory contains python code for the QR decomposition of a matrix with the Gram-Schmidt and Householder methods.
