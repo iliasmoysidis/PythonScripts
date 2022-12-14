@@ -21,6 +21,7 @@ def hessian(x):
     c = -x[0] - 0.1
 
     A = np.zeros(shape=(2, 2))
+
     A[0, 0] = math.exp(a) + math.exp(b) + math.exp(c)
     A[0, 1] = 3 * (math.exp(a)-math.exp(b))
     A[1, 0] = A[0, 1]
